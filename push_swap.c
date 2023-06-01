@@ -118,5 +118,4 @@ int	main(int ac, char **av)
 	stack_a = ft_ret_stack(av);
 	ft_sort_a(&stack_a, &stack_b);
 	ft_free_stack(stack_a);
-	while(1){};
 }
